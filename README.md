@@ -2,7 +2,7 @@
 
 ## Descrição:
 
-Site portifolio com rotas para a história da empresa e imagens dos serviços do artista.
+Site portifolio da empresa e imagens dos serviços do artista.
 
 ## Tecnologias:
 
@@ -10,11 +10,8 @@ React Js e TailwindCss
 
 ## Objetivo:
 
-Captação de clientes 
+Captação de clientes.
 
-## Imagens do Projeto:
-
-## Minhas :
 
 
 
