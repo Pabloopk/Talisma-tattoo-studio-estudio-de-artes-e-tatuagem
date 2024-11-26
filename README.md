@@ -35,7 +35,7 @@ Após um evento transformador, o fundador do Talismã Tattoo Studio redefiniu su
 1. Exibir a excelência artística.
 2. Ampliar presença online.
 3. Captar novos clientes.
-4. Oferecer transparência sobre seus serviços.:
+4. Oferecer transparência sobre seus serviços.
 
 ## Link do Site :
 
