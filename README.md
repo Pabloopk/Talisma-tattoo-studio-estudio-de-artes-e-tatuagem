@@ -39,7 +39,7 @@ Após um evento transformador, o fundador do Talismã Tattoo Studio redefiniu su
 
 ## Link do Site :
 
-https://talisma-tattoo-studio-estudio-de-artes-e-tatuagem-kpd6vq5k2.vercel.app
+https://talisma-tattoo-studio-estudio-de-artes-e-tatuagem.vercel.app/
 
 
 
