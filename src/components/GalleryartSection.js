@@ -60,7 +60,7 @@ const GalleryartSection = () => {
           {btnText} <div>{btnIcon}</div>
         </button></a>
       </motion.div>
-      <hr/>
+      <hr className='mt-[10px]'/>
       </section>
   );
 };
