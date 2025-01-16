@@ -6,7 +6,6 @@ import Header from './components/Header';
 import About from './components/About';
 import GallerySection from './components/GallerySection';
 import GalleryartSection from './components/GalleryartSection';
-//import Skills from './components/Skills';
 import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';

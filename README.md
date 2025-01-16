@@ -23,21 +23,15 @@ Após um evento transformador, o fundador do Talismã Tattoo Studio redefiniu su
 
 ## Tecnologias:
 
-<div style="display: inline_block">    
-    <img width="50px" style="padding: 50px;" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-    <img width="50px" style="padding: 50px;" alt="html" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-    <img width="50px" style="padding: 50px;" alt="TailwindCss" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-    <img width="50px" style="padding: 50px;" alt="TailwindCss" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-</div>
+React Js e TailwindCss
 
-## Os objetivos do Talismã Tattoo Studio são:
+## Objetivo:
 
-1. Exibir a excelência artística.
-2. Ampliar presença online.
-3. Captar novos clientes.
-4. Oferecer transparência sobre seus serviços.:
+Captação de clientes 
 
-## Link do Site :
+## Imagens do Projeto:
+
+## Minhas :
 
 https://talisma-tattoo-studio-estudio-de-artes-e-tatuagem.vercel.app
 
