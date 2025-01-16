@@ -10,6 +10,8 @@ import { motion } from 'framer-motion';
 
 import { fadeIn } from '../variants';
 
+import { Autoplay } from 'swiper';
+
 const Testimonial = () => {
   return(
      <motion.section 
@@ -19,7 +21,16 @@ const Testimonial = () => {
           viewport={{once: false, amount: 0.2}}
      className='py-[40px] lg:pb-[160px] lg:pt-0'>
       <div className='container mx=auto'> 
-          <Swiper>
+          <Swiper
+          spaceBetween={50} // Distância entre os slides
+              slidesPerView={1} // Número de slides visíveis por vez
+              autoplay={{
+                delay: 5000, // Tempo de atraso entre as trocas (em milissegundos)
+                disableOnInteraction: false, // Não desabilitar autoplay quando o usuário interagir
+              }}
+              modules={[Autoplay]} // Habilitar o módulo de autoplay
+              loop={true} // Definir o loop (voltar ao início após o último slide)
+          >
               {testimonialData.map((slide, index)=> {
 
                 const { quoteImg, message, name, occupation}  = slide;

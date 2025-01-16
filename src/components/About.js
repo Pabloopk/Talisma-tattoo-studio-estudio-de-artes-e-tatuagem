@@ -8,6 +8,7 @@ import { fadeIn } from '../variants';
 import { useNavigate } from 'react-router-dom';
 
 
+
 const About = () => {
   const navigate = useNavigate()
     function buttonSobre() {
@@ -18,7 +19,9 @@ const About = () => {
 
   return ( 
     <section id='sobre' className='bg-[#1d2a3a] lg:py-16 xl:pb[160px] mt-[10px] lg:mt-0'>
+      
         <div className='container mx-auto'>
+          
           <div className='flex flex-col lg:flex-row gap-x-[70px]
           items-center
           '>

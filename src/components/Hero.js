@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 
 import { fadeIn} from '../variants';
 
+
 const container = {
   hidden:{},
   show: {
@@ -48,13 +49,11 @@ const Hero = () => {
             
           </button>
           </a>
+          
         </motion.div>
       </div>
-
-      <div className='hidden xl:flex absolute 
-      -bottom-2 right-0 
-      left-0 
-      before:content-outlineText '></div>
+  
+      
 
     </motion.div>
   </section>

@@ -10,6 +10,8 @@ import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Copyright from './components/Copyright';
+import ScrollingText from './components/ScrollingText';
+
 
 
 const App = () => {
@@ -18,8 +20,16 @@ const App = () => {
       <Header />
       <Hero />
       <About />
+      <ScrollingText
+        text="Escolha seu estilo!"
+        speed={20} // Tempo em segundos para o texto percorrer a tela
+      />
       <GallerySection />
       <GalleryartSection />
+      <ScrollingText
+        text="Sua tattoo comigo!"
+        speed={20} // Tempo em segundos para o texto percorrer a tela
+      />
       <Testimonial />
       <Contact />
       <Footer />

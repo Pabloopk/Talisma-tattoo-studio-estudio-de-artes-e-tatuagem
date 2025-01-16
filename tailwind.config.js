@@ -7,6 +7,14 @@ module.exports = {
       secondary: 'Raleway',
       tertiary: 'Rozha One',
     },
+     animation: {
+          scrolling: "scrollingText 2s linear infinite",    
+      },
+      keyframes: {
+         scrollingText: {
+          "0%": { transform: "translateX(160%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },},
     container: {
       padding: {
         DEFAULT: '20px',
@@ -31,9 +39,7 @@ module.exports = {
         about: "url('/src/img/about/image.png')",
         interview: "url('/src/img/interview/bg.png')",
       },
-      content: {
-        outlineText: 'url("/src/img/hero/outline-text.svg")',
-      },
+      
     },
   },
   plugins: [],
