@@ -132,16 +132,16 @@ const Header = () => {
         </div>
 
         {/* Menu Mobile */}
-        <div
-          className={`${
-            navMobile ? 'max-h-full' : 'max-h-0'
-          } ${isActive ? 'top-[100px] lg:top-[110px]' : 'top-[120px] lg:top-[150px]'}
-          fixed bg-yellow-700 w-full h-full left-0  text-[#c3b1a1]
-          -z-10 transition-all duration-300`}
-          onClick={() => setNavMobile(!navMobile)}
-        >
-          <NavMobile />
-        </div>
+        <div 
+    onClick={() => setNavMobile(!navMobile)}
+    className={`${
+      navMobile ? 'max-h-full' : 'max-h-0'
+    } ${isActive ? 'top-[100px] lg:top-[110px]' : 'top-[120px] lg:top-[150px]'}
+    fixed bg-yellow-700 w-full h-full left-0 text-[#c3b1a1]
+    z-50 transition-all duration-300`}
+  >
+    <NavMobile onClick={() => setNavMobile(!navMobile)} />
+  </div>
 
         <div className="hidden xl:flex text-[#c3b1a1]" 
         
