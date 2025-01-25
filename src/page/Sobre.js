@@ -66,14 +66,46 @@ const Sobre = () => {
 
                     <p className='mb-6'>Hoje, orgulhamos-nos de ser um dos principais destinos para aqueles que buscam uma experiência de tatuagem autêntica e inesquecível. E continuamos a inovar, sempre buscando novas formas de expressão e novos caminhos para criar arte que inspire e transforme.</p>
                     
-                    <button onClick={buttonAbout}  className='mb-[40px] btn btn-lg btn-link'>
-                      Voltar
-                    </button>
                   
                   </div>
                 </div>
               </motion.div>
+
+
+               
           </div>
+
+          <motion.div variants={fadeIn('left')}
+              initial="hidden"
+              whileInView={'show'} className='flex-1 h-full xl:mt-48'>
+                
+                <div className='flex mt-16 flex-col items-start'>
+
+          
+                  <h2 className='h2 mt-10'>Nossa Missão</h2>
+                  <div className='max-w-[530px]'>
+                    <p className='mb-6'>Após passar por um evento canônico que mudou nossa perspectiva sobre a vida e a arte, decidimos fundar a empresa Talismã Tattoo Studio, com o objetivo de compartilhar nossa paixão pela tatuagem e criar um espaço onde a criatividade e a expressão artística pudessem fluir livremente.
+                    </p>
+
+                    <p className='mb-9'>Desde o início, nosso foco foi oferecer uma experiência única e personalizada para cada cliente, valorizando a individualidade e a estética de cada um. Nos apaixonamos mais ainda pela arte e começamos a montar quadros que refletiam nossa visão e habilidade.
+                    </p>
+
+                    <p className='mb-6'>O Talismã Tattoo Studio é um estúdio para clientes de todo Distrito Federal em busca de qualidade, profissionalismo e inovação. Nossa equipe de artistas talentosos e dedicados trabalha incansavelmente para criar peças únicas e personalizadas, que não apenas refletem a arte, mas também contam histórias.
+
+                    </p>
+
+                    <p className='mb-9'>Nossa filosofia é simples: oferecer uma experiência transformadora, que vá além da simples tatuagem, e se torne uma jornada de autoexpressão e descoberta. O Talismã Tattoo Studio é mais do que um estúdio de tatuagem; é um santuário da criatividade, onde a arte e a paixão se encontram.
+                    </p>
+
+                    <p className='mb-6'>Hoje, orgulhamos-nos de ser um dos principais destinos para aqueles que buscam uma experiência de tatuagem autêntica e inesquecível. E continuamos a inovar, sempre buscando novas formas de expressão e novos caminhos para criar arte que inspire e transforme.</p>
+                    
+                  </div>
+                </div>
+              </motion.div>
+
+                  <button onClick={buttonAbout}  className='mb-[40px] btn btn-lg btn-link'>
+                      Voltar
+                    </button>
         </div>
         <Copyright />
     </section>
