@@ -15,7 +15,7 @@ const Sobre = () => {
     }
 
     
-    const {sobre} = sobreData;
+    const {sobre, wokin} = sobreData;
 
     const {logo} = headerData;
 
@@ -147,7 +147,7 @@ const Sobre = () => {
                         whileInView={'show'} 
                       className='flex flex-col lg:flex-row flex-1'>
                         
-                          <img className='w-[250px] h-[300px] xl:mt-[180px] mt-[20px] mb-[20px] xl:w-[550px] xl:h-[600px] rounded-md ' src={sobre} alt=''/>
+                          <img className='w-[250px] h-[300px] xl:mt-[180px] mt-[20px] mb-[20px] xl:w-[550px] xl:h-[600px] rounded-md ' src={wokin} alt=''/>
                       
                       </motion.div> 
 

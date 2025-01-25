@@ -18,6 +18,7 @@ import GalleryartImg15 from '../src/img/galleryart/15.png';
 import GalleryartImg16 from '../src/img/galleryart/16.png';
 import QuoteImg from '../src/img/testimonial/quote.svg';
 import Sobre from '../src/img/sobre/gnt.png';
+import Worker from '../src/img/sobre/workin.png';
 
 
 // import icons
@@ -36,6 +37,7 @@ export const headerData = {
 
 export const sobreData = {
   sobre: Sobre,
+  wokin: Worker,
 };
 
 
