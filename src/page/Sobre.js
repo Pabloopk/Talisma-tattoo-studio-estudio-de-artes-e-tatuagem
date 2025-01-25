@@ -20,7 +20,7 @@ const Sobre = () => {
 
     return (
         
-         <section  className='bg-[#1d2a3a]  xl:pb[160px] mt-[10px] lg:mt-0'>
+         <article  className='bg-[#1d2a3a]  xl:pb[160px] mt-[10px] lg:mt-0'>
 
             <div className='flex  bg-yellow-900 justify-center items-center h-full pl-[50px] pr-[60px]'>     
                 <motion.img variants={fadeIn('right')}
@@ -88,11 +88,14 @@ const Sobre = () => {
                 <div className='flex mt-16 flex-col items-start'>
 
           
-                  <h2 className='text-4xl mb-10 mt-10'>Talisma Tattoo Studio: Transformando Arte em Pele em Brasília</h2>
+                  <h2 className='text-4xl mb-6 mt-10'>Talisma Tattoo Studio: Transformando Arte em Pele em Brasília</h2>
+
                   <div className='max-w-[530px]'>
                     <p className='mb-6'>
                       O Talisma Tattoo Studio é referência em Brasília para quem busca expressar sua personalidade através da arte na pele. Com uma equipe de tatuadores altamente qualificados e apaixonados por sua arte, oferecemos uma experiência única e personalizada, garantindo que cada tatuagem seja uma obra-prima exclusiva.
                     </p>
+
+                     <h2 className='text-2xl mb-6 mt-10'>Talisma Tattoo Studio: Transformando Arte em Pele em Brasília</h2>
 
                     <p className='mb-9'>Desde o início, nosso foco foi oferecer uma experiência única e personalizada para cada cliente, valorizando a individualidade e a estética de cada um. Nos apaixonamos mais ainda pela arte e começamos a montar quadros que refletiam nossa visão e habilidade.
                     </p>
@@ -125,7 +128,7 @@ const Sobre = () => {
           </button>
         </div>
         <Copyright />
-    </section>
+    </article>
     );
 };
 

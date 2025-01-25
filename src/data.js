@@ -19,6 +19,7 @@ import GalleryartImg16 from '../src/img/galleryart/16.png';
 import QuoteImg from '../src/img/testimonial/quote.svg';
 import Sobre from '../src/img/sobre/gnt.png';
 
+
 // import icons
 
 import { IoLogoWhatsapp, IoMdArrowForward } from 'react-icons/io';
@@ -38,12 +39,13 @@ export const sobreData = {
 };
 
 
+
 export const navData = {
   items: [
-    { href: '#Hero', name: 'Inicio' },
-    { href: '#sobre', name: 'Sobre' },
-    { href: '#Gallery', name: 'Galeria' },
-    { href: '#Contato', name: 'Contato' },
+    { to: 'Hero', name: 'Inicio' },
+    { to: 'sobre', name: 'Sobre' },
+    { to: 'Gallery', name: 'Galeria' },
+    { to: 'Contato', name: 'Contato' },
   ],
 };
 

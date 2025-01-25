@@ -4,6 +4,7 @@ import React from 'react';
 import { navData } from '../data'
 
 import Socials from './Socials';
+import { Link } from 'react-scroll';
 
 
 const NavMobile = () => {
@@ -17,9 +18,9 @@ const NavMobile = () => {
       {items.map((item, index)=> {
         return (
         <li key={index}>
-          <a className='text-2xl font-primary uppercase' href={item.href}>
+          <Link className='text-2xl font-primary uppercase' spy={true} smooth={true} duration={500} to={item.to}>
             {item.name}
-            </a>
+            </Link>
         </li>
          
         );

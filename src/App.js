@@ -18,8 +18,9 @@ const App = () => {
   return (
     <div className='max-w-[1920px] mx-auto overflow-hidden text-[#c3b1a1]'>
       <Header />
-      <Hero />
-      <About />
+      <div className='Hero'>
+      <Hero /></div>
+      <About id='About' />
       <ScrollingText
         text="Escolha seu estilo!"
         speed={20} // Tempo em segundos para o texto percorrer a tela
