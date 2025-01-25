@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import Copyright from "../components/Copyright";
+import Map from "../components/Map";
 
 
 const Sobre = () => {
@@ -88,27 +89,56 @@ const Sobre = () => {
                 <div className='flex mt-16 flex-col items-start'>
 
           
-                  <h2 className='text-4xl mb-6 mt-10'>Talisma Tattoo Studio: Transformando Arte em Pele em Brasília</h2>
+                  <h2 className='text-4xl mb-6 mt-10 text-yellow-700 font-bold'>Talisma Tattoo Studio: Transformando Arte em Pele em Brasília</h2>
 
                   <div className='max-w-[530px]'>
                     <p className='mb-6'>
                       O Talisma Tattoo Studio é referência em Brasília para quem busca expressar sua personalidade através da arte na pele. Com uma equipe de tatuadores altamente qualificados e apaixonados por sua arte, oferecemos uma experiência única e personalizada, garantindo que cada tatuagem seja uma obra-prima exclusiva.
                     </p>
 
-                     <h2 className='text-2xl mb-6 mt-10'>Talisma Tattoo Studio: Transformando Arte em Pele em Brasília</h2>
+                     <h2 className='text-2xl mb-6 mt-10 text-yellow-700 font-bold'>Estilos para Todos os Gostos</h2>
 
-                    <p className='mb-9'>Desde o início, nosso foco foi oferecer uma experiência única e personalizada para cada cliente, valorizando a individualidade e a estética de cada um. Nos apaixonamos mais ainda pela arte e começamos a montar quadros que refletiam nossa visão e habilidade.
+                    <p className='mb-8'>
+                        No Talisma Tattoo Studio, acreditamos que cada cliente tem um estilo único. Por isso, nossos artistas são especializados em diversos tipos de tatuagens, como:
                     </p>
 
-                    <p className='mb-6'>O Talismã Tattoo Studio é um estúdio para clientes de todo Distrito Federal em busca de qualidade, profissionalismo e inovação. Nossa equipe de artistas talentosos e dedicados trabalha incansavelmente para criar peças únicas e personalizadas, que não apenas refletem a arte, mas também contam histórias.
+                    <li className="mb-3">
+                      Old School: Um clássico que nunca sai de moda, com traços grossos e cores vibrantes.
+                    </li>
+                    <li className="mb-3">
+                      Blackwork: Tatuagens sólidas, monocromáticas e impactantes.
+                    </li>
+                    <li className="mb-3">
+                      Caligrafia gótica: é uma escolha popular entre aqueles que buscam incorporar arte, história e expressão pessoal em sua pele. Inspirada no estilo de escrita medieval, a caligrafia gótica traz um visual forte, detalhado e elegante, ideal para quem deseja transmitir profundidade e personalidade em sua tatuagem.
+                    </li>
+              
+
+                    <p className='mb-6'>
+                      Seja qual for o estilo que você procura, nossa equipe trabalha para garantir que o resultado final seja fiel à sua visão e repleto de significado.
 
                     </p>
 
-                    <p className='mb-9'>Nossa filosofia é simples: oferecer uma experiência transformadora, que vá além da simples tatuagem, e se torne uma jornada de autoexpressão e descoberta. O Talismã Tattoo Studio é mais do que um estúdio de tatuagem; é um santuário da criatividade, onde a arte e a paixão se encontram.
+                     <h2 className='text-2xl mb-6 mt-10 text-yellow-700 font-bold'>
+                      Por Que Escolher o Talisma Tattoo Studio?
+                    </h2>
+
+                    <li className="mb-9">
+                      Tatuadores Experientes: Nossa equipe é formada por artistas talentosos que entendem a importância de transformar sua ideia em arte.
+                    </li>
+                    <li className="mb-9">
+                      BHigiene e Segurança: Trabalhamos com os mais altos padrões de higiene, utilizando materiais descartáveis e técnicas seguras para sua tranquilidade.
+                    </li>
+
+                    <li className="mb-9">
+                      
+                      Atendimento Personalizado: Cada cliente é único, e nos dedicamos a criar projetos que reflitam sua história e personalidade.
+                    </li>
+
+                    <p className='mb-9'>
+
+                      Se você está em Brasília e busca um estúdio de tatuagem confiável, criativo e dedicado a oferecer o melhor em cada traço, o Talisma Tattoo Studio é o lugar certo.
                     </p>
 
-                    <p className='mb-6'>Hoje, orgulhamos-nos de ser um dos principais destinos para aqueles que buscam uma experiência de tatuagem autêntica e inesquecível. E continuamos a inovar, sempre buscando novas formas de expressão e novos caminhos para criar arte que inspire e transforme.</p>
-                    
                   </div>
                  
                           </div>
@@ -127,6 +157,7 @@ const Sobre = () => {
             Voltar
           </button>
         </div>
+        <Map />
         <Copyright />
     </article>
     );
