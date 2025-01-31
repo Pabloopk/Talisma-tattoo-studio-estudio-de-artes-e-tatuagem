@@ -21,7 +21,7 @@ const Sobre = () => {
 
     return (
         
-         <article  className='bg-[#1d2a3a]  xl:pb[160px] mt-[10px] lg:mt-0'>
+         <article className='bg-[#1d2a3a]  xl:pb[160px] mt-[10px] lg:mt-0'>
 
             <div className='flex  bg-yellow-900 justify-center items-center h-full pl-[50px] pr-[60px]'>     
                 <motion.img variants={fadeIn('right')}
@@ -126,7 +126,7 @@ const Sobre = () => {
                       Tatuadores Experientes: Nossa equipe é formada por artistas talentosos que entendem a importância de transformar sua ideia em arte.
                     </li>
                     <li className="mb-9">
-                      BHigiene e Segurança: Trabalhamos com os mais altos padrões de higiene, utilizando materiais descartáveis e técnicas seguras para sua tranquilidade.
+                      Higiene e Segurança: Trabalhamos com os mais altos padrões de higiene, utilizando materiais descartáveis e técnicas seguras para sua tranquilidade.
                     </li>
 
                     <li className="mb-9">
@@ -142,7 +142,9 @@ const Sobre = () => {
                   </div>
                  
                           </div>
-                        </motion.div>  <motion.div variants={fadeIn('right')}
+                        </motion.div>  
+                        
+                        <motion.div variants={fadeIn('right')}
                         initial="hidden"
                         whileInView={'show'} 
                       className='flex flex-col lg:flex-row flex-1'>
