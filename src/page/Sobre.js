@@ -6,9 +6,13 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import Copyright from "../components/Copyright";
 import Map from "../components/Map";
+import { Link } from "react-scroll";
+import { FaChevronUp} from 'react-icons/fa';
+
 
 
 const Sobre = () => {
+    
     const navigate = useNavigate()
     function buttonAbout() {
       navigate(`/`)
@@ -23,14 +27,17 @@ const Sobre = () => {
         
          <article className='bg-[#1d2a3a]  xl:pb[160px] mt-[10px] lg:mt-0'>
 
-            <div className='flex  bg-yellow-900 justify-center items-center h-full pl-[50px] pr-[60px]'>     
+            <div id="ser" className='flex  bg-yellow-900 justify-center items-center h-full pl-[50px] pr-[60px]'>     
                 <motion.img variants={fadeIn('right')}
             initial="hidden"
             whileInView={'show'}
             viewport={{once: false, amount: 0.3}} onClick={buttonAbout} className='  cursor-pointer w-[300px] h-[300px]' src={logo} alt=''/>
             </div>
 
-            
+          <button onClick={buttonAbout} className='mt-8 mr-8 ml-8 btn btn-lg btn-link'>
+           ↩ Voltar
+          </button>
+
         <div className='container mx-auto '>
           <div className='flex flex-col lg:flex-row gap-x-[70px]
           items-center
@@ -71,10 +78,13 @@ const Sobre = () => {
                   </div>
                 </div>
               </motion.div>
-
+                
 
                
           </div>
+                <Link  to="ser" spy={true} smooth={true} duration={700} className='flex cursor-pointer items-center justify-center mt-8 dark:text-light'>
+                  <FaChevronUp size={40} /> {/* Usando o ícone */}
+                </Link>
  {/**texto para seo serviços */}
 
           <div className='flex flex-col lg:flex-row gap-x-[70px]
@@ -154,10 +164,10 @@ const Sobre = () => {
                       </motion.div> 
 
                  </div>
-
-         <button onClick={buttonAbout}  className='mb-[40px] btn btn-lg btn-link'>
-            Voltar
-          </button>
+              <Link  to="ser" spy={true} smooth={true} duration={700} className='flex cursor-pointer items-center justify-center mt-8 dark:text-light'>
+                  <FaChevronUp size={40} /> {/* Usando o ícone */}
+                </Link>
+        
         </div>
         <Map />
         <Copyright />

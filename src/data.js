@@ -235,7 +235,7 @@ export const contactData = {
         'Entre em contato para orçamentos.',
       address: {
         icon: <FaMapMarkerAlt />,
-        name: 'Asa Norte, 104 N Bloco C, Talismã Tattoo Studio',
+        name: 'Asa Norte, 104 N Bloco C, Talismã Tattoo Studio, sala 102',
       },
       phone: {
         icon: <FaPhoneAlt />,

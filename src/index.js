@@ -5,7 +5,7 @@ import App from './App';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Sobre from './page/Sobre';
-
+// import Hero from './components/Hero'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -15,7 +15,12 @@ const router = createBrowserRouter([
     path: '/sobre',
     element: <Sobre />
 
-  }
+  },
+  // {
+  //   path: '/Hero',
+  //   element: <Hero />
+
+  // }
 ]);
 
 
