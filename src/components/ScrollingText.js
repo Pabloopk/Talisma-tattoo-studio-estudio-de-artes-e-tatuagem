@@ -1,6 +1,6 @@
 import React from "react";
 
-const ScrollingText = ({ text, speed = 10}) => {
+const ScrollingText = ({ text, speed = 20}) => {
   return (
     <div className="container relative mt-20 transition-all h-32 flex items-right ">
       <div

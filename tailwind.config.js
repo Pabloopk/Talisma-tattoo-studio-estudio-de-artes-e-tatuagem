@@ -8,7 +8,7 @@ module.exports = {
       tertiary: 'Rozha One',
     },
      animation: {
-          scrolling: "scrollingText 2s linear infinite",    
+          scrolling: "scrollingText 1s linear infinite",    
       },
       keyframes: {
          scrollingText: {

@@ -20,18 +20,15 @@ const App = () => {
       <Header />
       <Hero />
       <About />
-      <ScrollingText
-        text="Escolha seu estilo!"
-        speed={20} // Tempo em segundos para o texto percorrer a tela
-      />
       <GallerySection />
       <GalleryartSection />
-      <ScrollingText
-        text="Sua tattoo conosco!"
-        speed={20} // Tempo em segundos para o texto percorrer a tela
-      />
+      
       <Testimonial />
       <Contact />
+     <ScrollingText
+        text="Sua tattoo conosco! Agende já seu horário!"
+        speed={30} // Tempo em segundos para o texto percorrer a tela
+      />
       <Footer />
       <Copyright />
       {/* <div className='h-[4000px]'></div> */}
