@@ -35,7 +35,7 @@ const Sobre = () => {
             </div>
 
           <button onClick={buttonAbout} className='mt-8 mr-8 ml-8 btn btn-lg btn-link'>
-           ↩ Voltar
+           Voltar
           </button>
 
         <div className='container mx-auto '>
