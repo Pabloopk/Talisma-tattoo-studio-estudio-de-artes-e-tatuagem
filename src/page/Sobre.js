@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import Copyright from "../components/Copyright";
-import Map from "../components/Map";
+
 import { Link } from "react-scroll";
 import { FaChevronUp} from 'react-icons/fa';
 
@@ -169,7 +169,7 @@ const Sobre = () => {
                 </Link>
         
         </div>
-        <Map />
+       
         <Copyright />
     </article>
     );
