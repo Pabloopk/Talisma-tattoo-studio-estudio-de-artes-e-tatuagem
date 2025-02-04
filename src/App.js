@@ -27,7 +27,7 @@ const App = () => {
       <GallerySection />
       <GalleryartSection />
       <ScrollingText
-        text="Sua tattoo comigo!"
+        text="Sua tattoo conosco!"
         speed={20} // Tempo em segundos para o texto percorrer a tela
       />
       <Testimonial />
